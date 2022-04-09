@@ -1,0 +1,27 @@
+<div class="main-wrap">
+  <div class="content-wrap">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="side-wrap">
+    <div class="home-button-wrap">
+        <button class="home-button" routerLink="/dashboard/home" routerLinkActive="active" mat-fab color="warn" aria-label="Example icon button with a home icon">
+          <mat-icon>home</mat-icon>
+        </button>
+    </div>
+    <div class="button-wrap">
+      <button class="button" routerLink="/dashboard/about" routerLinkActive="active" mat-fab color="warn" aria-label="Example icon button with a home icon">
+        <mat-icon>person_outline</mat-icon>
+      </button>
+    </div>
+    <div class="button-wrap">
+      <button class="button" routerLink="/dashboard/portfolio" routerLinkActive="active" mat-fab color="warn" aria-label="Example icon button with a home icon">
+        <mat-icon>business_center</mat-icon>
+      </button>
+    </div>
+    <div class="button-wrap">
+      <button class="button" routerLink="/dashboard/contact" routerLinkActive="active" mat-fab color="warn" aria-label="Example icon button with a home icon">
+        <mat-icon>local_post_office</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
